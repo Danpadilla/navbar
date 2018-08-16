@@ -1,0 +1,25 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "nav bar 4 a friend",
+  "main": "src/index.js",
+  "repository": "https://github.com/jobCeg/navbar.git",
+  "author": "Job Celaya <job_722@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-serve --log-level warn  --config webpack.config.dev.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.1.1",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-serve": "^2.0.2"
+  }
+}
